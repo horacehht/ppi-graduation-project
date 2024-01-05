@@ -1,0 +1,10 @@
+ppi_path = ./protein_info/protein.actions.SHS27k.STRING.pro2.txt
+pseq_path = ./protein_info/protein.SHS27k.sequences.dictionary.pro3.tsv
+vec_path = ./protein_info/vec5_CTC.txt
+index_path = ./train_val_split_data/train_val_split_37.json
+save_path = ./result_save
+batch_size = 2048
+epochs = 300
+seed = 37
+
+train gnn, train_num: 5328, valid_num: 1332
